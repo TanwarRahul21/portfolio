@@ -180,6 +180,9 @@ export const listProyek = [
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/TanwarRahul21/music-cloud-app",
+    githubUrl: "https://github.com/TanwarRahul21/music-cloud-app",
+    liveUrl: "",
+    stack: ["React", "Supabase", "Tailwind"],
     dad: "100",
   },
   {
@@ -191,6 +194,9 @@ export const listProyek = [
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://portfolio-kappa-red-tqutq6nd1i.vercel.app",
+    githubUrl: "https://github.com/TanwarRahul21",
+    liveUrl: "https://portfolio-kappa-red-tqutq6nd1i.vercel.app",
+    stack: ["React", "Vite", "Tailwind"],
     dad: "200",
   },
   {
@@ -202,6 +208,9 @@ export const listProyek = [
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/TanwarRahul21/rahul-links",
+    githubUrl: "https://github.com/TanwarRahul21/rahul-links",
+    liveUrl: "",
+    stack: ["React", "Tailwind", "Vite"],
     dad: "300",
   },
 ];

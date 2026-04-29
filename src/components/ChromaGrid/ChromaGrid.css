@@ -37,9 +37,10 @@
   height: auto;
   border-radius: 20px;
   overflow: hidden;
-  border: 1px solid #333;
-  transition: border-color 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
   background: var(--card-gradient);
+  transform-style: preserve-3d;
 
   --mouse-x: 50%;
   --mouse-y: 50%;
@@ -47,7 +48,8 @@
 }
 
 .chroma-card:hover {
-  border-color: var(--card-border);
+  border-color: #5dcaa5;
+  box-shadow: 0 16px 40px rgba(93, 202, 165, 0.25);
 }
 
 .chroma-card::before {
@@ -93,13 +95,73 @@
   color: #fff;
   font-family: system-ui, sans-serif;
   display: grid;
-  row-gap: rem;
+  row-gap: 0.6rem;
   column-gap: 0.75rem;
 }
 
 .chroma-info .role,
 .chroma-info .handle {
   color: #aaa;
+}
+
+.chroma-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.chroma-tag {
+  background: rgba(93, 202, 165, 0.85);
+  color: #0a0a0f;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+
+.chroma-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.4rem;
+}
+
+.chroma-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.chroma-btn-primary {
+  background: #5dcaa5;
+  color: #0a0a0f;
+  box-shadow: 0 10px 24px rgba(93, 202, 165, 0.25);
+}
+
+.chroma-btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+.chroma-btn-ghost {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #f5f5f5;
+}
+
+.chroma-btn-ghost:hover {
+  border-color: #5dcaa5;
+  color: #5dcaa5;
+  transform: translateY(-2px);
+}
+
+.chroma-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .chroma-overlay {

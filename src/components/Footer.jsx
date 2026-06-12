@@ -14,7 +14,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href="https://linkedin.com/in/rahultanwar"
+            href="https://www.linkedin.com/in/rahul-tanwar-r45j16"
             className="h-10 w-10 rounded-full border border-white/10 bg-white/5 inline-flex items-center justify-center hover:border-[#5DCAA5] hover:text-[#5DCAA5] transition-colors"
             aria-label="LinkedIn"
           >
@@ -23,7 +23,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href="https://www.instagram.com/rahultanwar__/"
+            href="https://www.instagram.com/top_rahul21"
             className="h-10 w-10 rounded-full border border-white/10 bg-white/5 inline-flex items-center justify-center hover:border-[#5DCAA5] hover:text-[#5DCAA5] transition-colors"
             aria-label="Instagram"
           >

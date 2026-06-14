@@ -182,7 +182,7 @@ export const listProyek = [
     url: "https://github.com/TanwarRahul21/music-cloud-app",
     githubUrl: "https://github.com/TanwarRahul21/music-cloud-app",
     liveDemo: "https://music-cloud-app.vercel.app",
-    liveUrl: "",
+    liveUrl: "https://music-cloud-app.vercel.app",
     stack: ["React", "Supabase", "Tailwind"],
     dad: "100",
   },

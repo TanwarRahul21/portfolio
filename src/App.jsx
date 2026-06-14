@@ -218,7 +218,7 @@ function App() {
                 </h2>
 
                 <BlurText
-                  text="I’m Rahul Tanwar, a full-stack developer passionate about building modern, high-performance applications with an intuitive user experience. I enjoy working with the latest technologies like Artificial Intelligence, Machine Learning, and cloud-based development, blending creativity with precision to deliver impactful solutions. With over three years of experience and more than 20 completed projects, I’m committed to helping users and businesses grow in the digital era through functional, aesthetic, and scalable digital products."
+                  text="I'm Rahul Tanwar, a Full Stack Developer and IT Engineering student from Mumbai, India. I build real-world web apps using React, Node.js, MongoDB, and Tailwind. I'm currently open to internship opportunities where I can contribute, learn, and grow."
                   delay={150}
                   animateBy="words"
                   direction="top"

@@ -181,6 +181,7 @@ export const listProyek = [
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/TanwarRahul21/music-cloud-app",
     githubUrl: "https://github.com/TanwarRahul21/music-cloud-app",
+    liveDemo: "https://music-cloud-app.vercel.app",
     liveUrl: "",
     stack: ["React", "Supabase", "Tailwind"],
     dad: "100",

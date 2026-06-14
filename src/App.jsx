@@ -175,8 +175,8 @@ function App() {
             />
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center sm:gap-4 gap-3 w-full">
               <a 
-                href="./assets/CV.pdf" 
-                download="Faris_Edrik_Prayoga_CV.pdf" 
+                href="./CV.pdf" 
+                download="Rahul_Tanwar_CV.pdf" 
                 className="btn-teal-glow font-semibold bg-transparent p-4 px-6 rounded-full w-full sm:w-auto text-center"
               >
                 <span>Download CV</span>

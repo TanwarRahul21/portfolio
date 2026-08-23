@@ -2,20 +2,20 @@
 
 Personal portfolio website built with React + Vite.
 
-## 🛠 Tech Stack
+##  Tech Stack
 - React + Vite
 - Tailwind CSS
 - Three.js (Lanyard 3D)
 - EmailJS (Contact Form)
 - AOS Animations
 
-## 📁 Structure
+##  Structure
 - `public/` — static assets
 - `src/` — React components and logic
 - `index.html` — entry point
 - `vite.config.js` — Vite configuration
 
-## 🚀 Run Locally
+##  Run Locally
 1. Clone repo:
    git clone https://github.com/TanwarRahul21/portfolio.git
    cd portfolio
@@ -29,10 +29,10 @@ Personal portfolio website built with React + Vite.
 4. Build for production:
    npm run build
 
-## 🔗 Live Demo
+##  Live Demo
 https://portfolio-kappa-red-tqutq6nd1i.vercel.app
 
-## 📬 Contact
+##  Contact
 - Email: tanwarrahul9982@gmail.com
 - GitHub: github.com/TanwarRahul21
 - LinkedIn: https://www.linkedin.com/in/rahul-tanwar-r45j16
